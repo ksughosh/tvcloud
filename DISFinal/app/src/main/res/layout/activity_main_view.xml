@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainView">
+
+    <Button
+        android:text="Tag Now"
+        android:id="@+id/tagButton"
+        android:background="@drawable/mybutton"
+        android:layout_width="@dimen/button_horizontal_size"
+        android:layout_height="@dimen/button_vertical_size"
+        android:paddingTop="5dp"
+        android:layout_marginRight="2dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false" />
+
+    <Button
+        android:text="Tag Later"
+        android:id="@+id/tagLaterButton"
+        android:background="@drawable/taglater"
+        android:layout_width="@dimen/button_horizontal_size"
+        android:layout_height="@dimen/button_vertical_size"
+        android:paddingTop="5dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/tagButton"
+        android:layout_alignRight="@+id/listView"
+        android:layout_alignEnd="@+id/listView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/movieDoneText"
+        android:gravity="center"
+        android:visibility="gone"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:text="The movie is over.\nTouch anywhere to finish your tags."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newTagArea"
+        android:layout_above="@+id/tagButton"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tag:"
+            />
+
+        <EditText
+            android:id="@+id/newTagField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:singleLine="true"
+            android:imeOptions="actionSend" />
+    </LinearLayout>
+    
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView"
+        android:padding="5dp"
+        android:background="@drawable/border"
+        android:layout_above="@+id/newTagArea"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

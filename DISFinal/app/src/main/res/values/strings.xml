@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TVCrowd\'s TvCloud</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_finish_tags">Finish Tags</string>
+    <string name="title">TVCrowd\'s TvCloud</string>
+    <string name="title_activity_finish_tags">Finish Tags</string>
+    <string name="OK">OK</string>
+
+
+</resources>

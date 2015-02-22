@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sughoshkumar.disfinal.FinishTags" >
+
+    <item android:id="@+id/action_finish_tags"
+        android:title="@string/action_finish_tags"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
