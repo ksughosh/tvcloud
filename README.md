@@ -15,7 +15,7 @@ The android application has two main functionalities where user can choose to __
 #### Design
 ![Alt text](http://s32.postimg.org/6cx7adi2t/tvcloud_1.png "TVCloud Home")    ![Alt text](http://s32.postimg.org/u5b3zn9hh/tvcloud_2.png "TAG Later")
 
-The design philosophy was to keep it simple. The user while being immersed with consuming the content on the television, should not be interrupted by the application. Hence if the user choses to read the comments they're are available on the main view as shown in the left screenshot.
+The design philosophy is to keeping it extremely simple. The user while being immersed with consuming the content on the television, should not be interrupted by the application. Hence if the user choses to read the comments they're are available on the main view as shown in the left screenshot.
 
 If the user chooses to concentrate on the TV content by tag later, the user would be taken to the screen shown on the right soon after the the video playback is over. To recollect the what the user might have wanted to comment as short excerpt -40s to +40s from the second of the video playback when the __TAG LATER__ was pressed is played back.
 
