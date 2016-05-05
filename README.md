@@ -13,7 +13,7 @@ The modules listed here are:
 The android application has two main functionalities where user can choose to __TAG NOW__ to tag immediately while watching the video or just press __TAG LATER__ to comment on the video at after the playback. The application plays a small excerpt of the video so that the user can remember the comment and enter it.
 
 #### Design
-![Alt text](http://s32.postimg.org/hgwwa2k79/tvcloud_1.png "Optional title")    ![Alt text](http://s32.postimg.org/jmr74knnp/tvcloud_2.png "Optional title")
+![Alt text](http://s32.postimg.org/6cx7adi2t/tvcloud_1.png "TVCloud Home")    ![Alt text](http://s32.postimg.org/u5b3zn9hh/tvcloud_2.png "TAG Later")
 
 The design philosophy was to keep it simple. The user while being immersed with consuming the content on the television, should not be interrupted by the application. Hence if the user choses to read the comments they're are available on the main view as shown in the left screenshot.
 
